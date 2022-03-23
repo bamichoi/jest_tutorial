@@ -24,3 +24,7 @@ test("2 더하기 3은 5야", () => {
 test("3 더하기 3은 5야", () => {
   expect(fn.add(3, 3)).not.toBe(5);
 });
+
+test("3 더하기 3은 5야", () => {
+  expect(fn.add(3, 2)).toEqual(5);
+});
