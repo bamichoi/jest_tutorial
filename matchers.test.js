@@ -9,12 +9,12 @@ test("이름과 나이를 전달받아서 객체를 반환해줘", () => {
   });
 });
 
-test("이름과 나이를 전달받아서 객체를 반환해줘", () => {
-  expect(fn.makeuser("Bami", 100)).toStrictEqual({
-    username: "Bami",
-    age: 100,
-  });
-});
+// test("이름과 나이를 전달받아서 객체를 반환해줘", () => {
+//   expect(fn.makeuser("Bami", 100)).toStrictEqual({
+//     username: "Bami",
+//     age: 100,
+//   });
+// });
 
 // test("이름과 나이를 전달받아서 객체를 반환해줘", () => {
 //   expect(fn.makeuser("Bami", 100)).toBe({
@@ -74,10 +74,10 @@ test("비밀번호 4자리", () => {
 
 // 기본 값을 단순히 같은지 비교할때는 toBe 혹은 toEqual을 사용한다.
 
-test("0.1 더하기 0.2는 0.3 입니다.", () => {
-  const password = "1234";
-  expect(fn.add(0.1, 0.2)).toEqual(0.3);
-});
+// test("0.1 더하기 0.2는 0.3 입니다.", () => {
+//   const password = "1234";
+//   expect(fn.add(0.1, 0.2)).toEqual(0.3);
+// });
 // Expected: 0.3
 // Received: 0.30000000000000004
 // 컴퓨터는 2진수를 사용하기 때문에 소수점을 정확하게 계산하지 못함. 테스트는 실패.
