@@ -1,6 +1,7 @@
 import fn from "./fn";
 
 // mock function
+// 특정 기능을 가진 가짜 함수를 만듬
 
 // const mockFn = jest.fn();
 
