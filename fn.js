@@ -1,6 +1,14 @@
 const fn = {
   add: (num1, num2) => num1 + num2,
   makeuser: (username, age) => ({ username, age, gender: undefined }),
+  createUser: (name) => {
+    console.log("실제로 사용자가 생성되었습니다.");
+    {
+      return {
+        name,
+      };
+    }
+  },
   theError: () => {
     throw new Error("error");
   },
